@@ -1,0 +1,226 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: hsl(0, 0%, 100%);
+}
+
+/* font-family: 'Raleway', sans-serif; - другий шрифт */
+
+/* list-style-type: none; - прибрати точку(номер) в списку */
+/* text-decoration: none; - прибрати підкреслення в посиланні */
+
+/* ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+} */
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.header {
+}
+
+.header-navigation {
+}
+
+.header-link-logo {
+  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17; /* 21/18 */
+  letter-spacing: 0.03em; /* 0.054/18 */
+  text-transform: uppercase;
+}
+
+.logo-second-word {
+  color: #2e2f42;
+}
+
+.header-navigation-list {
+  list-style-type: none;
+}
+.navigation-list-item {
+}
+.navigation-list-link {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em; /* 0.32/16 */
+}
+.navigation-list-link:hover,
+.navigation-list-link:focus {
+  color: #404bbf;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em; /* 0.32/16 */
+}
+.header-adress {
+  font-style: normal;
+}
+.header-adress-list {
+  list-style-type: none;
+}
+.adress-list-item {
+}
+.adress-list-link {
+  color: #434455;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+.adress-list-link:hover,
+.adress-list-link:focus {
+  color: #404bbf;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+
+.main {
+}
+.main-block {
+  background: #2e2f42;
+}
+.main-block-title {
+  color: #ffffff;
+  text-align: center;
+  font-size: 56px;
+  line-height: 1.07; /* 107.143% */
+  letter-spacing: 0.02em;
+}
+.main-block-btn {
+  font-family: inherit;
+  background: #4d5ae5;
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+.main-block-btn:hover,
+.main-block-btn:active {
+  background: #404bbf;
+}
+.main-block-btn:focus {
+  background-color: #404bbf;
+}
+.btn-text {
+  font-size: 16px;
+}
+.feature {
+}
+
+.visually-hidden {
+  margin: -1px;
+  border: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.features-list {
+}
+.features-item {
+}
+.features-subtitle {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
+}
+.features-item-text {
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em; /* 0.32/16 */
+}
+.team {
+  background: #f4f4fd;
+}
+.team-titel {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.02em; /* 0.72/36 */
+  text-transform: capitalize;
+}
+.team-list {
+}
+.team-item {
+  background-color: #ffffff;
+}
+.team-subtitle {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
+}
+.team-item-text {
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em; /* 0.32/16 */
+}
+.portfolio {
+}
+.portfolio-titel {
+  color: #2e2f42;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 36px;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.portfolio-list {
+}
+.portfolio-item {
+}
+.portfolio-subtitle {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
+}
+.portfolio-item-text {
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em; /* 0.32/16 */
+}
+.footer {
+  background: #2e2f42;
+}
+.footer-link-logo {
+  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17; /* 21/18 */
+  letter-spacing: 0.03em; /* 0.054/18 */
+  text-transform: uppercase;
+}
+.logo-second-word-footer {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em; /* 0.32/16 */
+}
