@@ -113,6 +113,8 @@ img {
   list-style-type: none;
   display: flex;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .navigation-list-item {
   padding: 24px 0;
@@ -135,6 +137,8 @@ img {
 
 .header-container {
   display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
   /* padding: 24px 0; */
 }
 .header-adress {
@@ -145,8 +149,8 @@ img {
   list-style-type: none;
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
 }
 .adress-list-item {
 }
