@@ -81,7 +81,7 @@ img {
 .header {
   /* padding-top: 24px;
   padding-bottom: 24px; */
-  /* padding: 24px 0; */
+  padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
   background: #fff;
 }
@@ -113,11 +113,10 @@ img {
   list-style-type: none;
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
 }
 .navigation-list-item {
-  /* padding: 24px 0; */
 }
 .navigation-list-link {
   color: #2e2f42;
@@ -125,6 +124,7 @@ img {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em; /* 0.32/16 */
+  padding: 24px 0;
 }
 .navigation-list-link:hover,
 .navigation-list-link:focus {
