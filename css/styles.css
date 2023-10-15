@@ -117,7 +117,7 @@ img {
   padding-bottom: 24px;
 }
 .navigation-list-item {
-  padding: 24px 0;
+  /* padding: 24px 0; */
 }
 .navigation-list-link {
   color: #2e2f42;
