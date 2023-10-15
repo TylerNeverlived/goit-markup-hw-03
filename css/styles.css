@@ -81,7 +81,7 @@ img {
 .header {
   /* padding-top: 24px;
   padding-bottom: 24px; */
-  padding: 24px 0;
+  /* padding: 24px 0; */
   border-bottom: 1px solid #e7e9fc;
   background: #fff;
 }
@@ -117,6 +117,7 @@ img {
   padding-bottom: 24px; */
 }
 .navigation-list-item {
+  padding: 24px 0;
 }
 .navigation-list-link {
   color: #2e2f42;
@@ -149,8 +150,8 @@ img {
   list-style-type: none;
   display: flex;
   gap: 40px;
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .adress-list-item {
 }
